@@ -37,6 +37,7 @@
 									<th width="100">말머리</th>
 									<td><select id="selectbox" name="bCategory" title="말머리" style="width: 60px;">
 											<option selected="selected" size="45"></option>
+											<option>공지사항</option>
 											<option>공부</option>
 											<option>고민</option>
 											<option>취미</option>

@@ -5,8 +5,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="com.gys.classmanager.dao.BoardDao">
 
 	<select id="listBoard" resultType="com.gys.classmanager.dto.BoardDto">
-		SELECT * FROM BOARD ORDER BY
-		IDX DESC
+		SELECT * FROM BOARD 
+		WHERE GRADENUM=#{0} AND CLASSNUM = #{1} ORDER BY TEACHERNO DESC, IDX DESC
 	</select>
 
 	<select id="listComment" resultType="com.gys.classmanager.dto.CommentDto">
@@ -36,9 +36,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<insert id="writeBoard">
 		INSERT
 		INTO
-		board (category, title, content, writer, hit)
+		BOARD (CATEGORY, TITLE, CONTENT, WRITER, HIT, TEACHERNO, GRADENUM, CLASSNUM)
 		VALUES
-		(#{param1}, #{param2}, #{param3}, #{param4}, #{param5})
+		(#{param1}, #{param2}, #{param3}, #{param4}, #{param5},#{param6},#{param7},#{param8})
 	</insert>
 
 	<delete id="deleteBoard">

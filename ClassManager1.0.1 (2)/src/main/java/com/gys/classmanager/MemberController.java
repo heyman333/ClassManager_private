@@ -165,12 +165,14 @@ public class MemberController {
 				session.setAttribute("tname", dto.getName());
 				session.setAttribute("grade", dto.getGrade());
 				session.setAttribute("classNum", dto.getClassNum());
+				session.setAttribute("teacherno", dto.getTeacherNum());
 				session.setAttribute("isStudent", false);
 				
 			} else {
 				session.setAttribute("sname", dto.getName());
 				session.setAttribute("grade", dto.getStdtGrade());
 				session.setAttribute("classNum", dto.getStdtClassNum());
+				session.setAttribute("teacherno", dto.getTeacherNum());
 				session.setAttribute("stdtNum", String.valueOf(dto.getStudentNum()));
 				session.setAttribute("isStudent", true);
 			}

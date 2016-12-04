@@ -17,7 +17,7 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse" style="margin-bottom:0px;border-bottom: 2px solid;"  id="header">
+	<nav class="navbar navbar-inverse" style="margin-bottom:0px;border-bottom: 2px solid;" id="header">
 		<div class="container-fluid" style="height:90px;"> 
 			<div class="navbar-header" style="padding-top: 10px">
 				<button class="navbar-toggle collapsed" type="button"

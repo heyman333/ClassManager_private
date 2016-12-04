@@ -40,12 +40,12 @@
 				<div class="carousel-inner">
 					<!--슬라이드1-->
 					<div class="item active">
-						<img src="<%=cp %>/resources/assets/img/1.jpg"
+						<img src="<%=cp %>/resources/assets/img/pexels-photo-203237.jpeg"
 							style="width: 100%" alt="First slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Slide 1</h1>
-								<p>여러분의 학급을 완변하게 만드세요</p>
+								<h1>성적관리</h1>
+								<p>그래프로 성적의 변화를 학인하세요</p>
 							</div>
 						</div>
 					</div>
@@ -53,12 +53,12 @@
 
 					<!--슬라이드2-->
 					<div class="item">
-						<img src="<%=cp %>/resources/assets/img/2.jpg"
+						<img src="<%=cp %>/resources/assets/img/pexels-photo-185764.jpeg"
 							style="width: 100%" data-src="" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Slide 2</h1>
-								<p>텍스트 2</p>
+								<h1>커뮤니티</h1>
+								<p>학급게시판을 통해 언제나 함께</p>
 							</div>
 						</div>
 					</div>
@@ -66,12 +66,12 @@
 
 					<!--슬라이드3-->
 					<div class="item">
-						<img src="<%=cp %>/resources/assets/img/3.jpg"
-							style="width: 100%" data-src="" alt="Third slide">
+						<img src="<%=cp %>/resources/assets/img/apple-iphone-books-desk.jpg" 
+						style="width: 100%" data-src="" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Slide 3</h1>
-								<p>텍스트 3</p>
+								<h1>선생님을 위한 시스템</h1>
+								<p>당신의 반을 완벽하게 만드세요</p>
 							</div>
 						</div>
 					</div>

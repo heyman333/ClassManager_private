@@ -20,9 +20,12 @@ public class BoardController {
 	private SqlSession sqlSession;
 	
 	@RequestMapping(value = "/board_list")
-	public String board_list(Model model) {
+	public String board_list(Model model, HttpServletRequest rq) {
 		BoardDao dao = sqlSession.getMapper(BoardDao.class);
-		model.addAttribute("board_list", dao.listBoard());
+		HttpSession session = rq.getSession();
+		String grade= (String) session.getAttribute("grade");
+		String classNum= (String) session.getAttribute("classNum");
+		model.addAttribute("board_list", dao.listBoard(grade,classNum));
 		return "board_list";
 	}
 	
@@ -74,9 +77,12 @@ public class BoardController {
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
 		BoardDao dao = sqlSession.getMapper(BoardDao.class);
-		
+		HttpSession session = request.getSession();
+		String grade= (String)session.getAttribute("grade");
+		String classNum= (String)session.getAttribute("classNum");
+		int teacherno = (Integer)session.getAttribute("teacherno");
 		dao.writeBoard(request.getParameter("bCategory"), request.getParameter("bTitle"),
-							request.getParameter("bContent"), request.getParameter("bWriter"), 1);
+							request.getParameter("bContent"), request.getParameter("bWriter"), 1, teacherno, grade, classNum);
 		return "redirect:board_list";
 	}
 	

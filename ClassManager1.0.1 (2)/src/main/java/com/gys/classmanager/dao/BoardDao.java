@@ -7,7 +7,7 @@ import com.gys.classmanager.dto.CommentDto;
 
 	public interface BoardDao {
 
-		public ArrayList<BoardDto> listBoard();
+		public ArrayList<BoardDto> listBoard(String grade, String classNum);
 		
 		public ArrayList<CommentDto> listComment(int cBoardIdx);
 		
@@ -15,7 +15,7 @@ import com.gys.classmanager.dto.CommentDto;
 		
 		public BoardDto viewBoard(int bIdx);
 
-		public void writeBoard(String bCategory, String bTitle, String bContent, String bWriter, int hit);
+		public void writeBoard(String bCategory, String bTitle, String bContent, String bWriter, int hit, int teacherno, String grade, String classNum);
 
 		public void deleteBoard(String idx);
 		
