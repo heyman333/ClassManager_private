@@ -21,7 +21,7 @@
 
 <body>
 
-	<footer class="footer-2 bg-color-2">
+	<footer class="footer-2 bg-color-2" >
 
 		<!-- main footer begin -->
 		<div class="main-footer">
