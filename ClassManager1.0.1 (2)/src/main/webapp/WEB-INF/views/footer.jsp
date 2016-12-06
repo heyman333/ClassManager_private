@@ -29,8 +29,8 @@
 				<div class="row">
 					<div class="col-md-12" style="text-align: center;">
 						<img class="logo-footer"
-							src="http://themes.audemedia.com/html/goodgrowth/images/logo.png"
-							alt="compact company">
+							src="<%=cp%>/resources/assets/img/logo10.png"
+							style="width: 30%;" alt="compact company">
 						<p>
 							Compact is a clean Templates suitable for corporate, You can
 							customize it <br> very easy to fit your needs
