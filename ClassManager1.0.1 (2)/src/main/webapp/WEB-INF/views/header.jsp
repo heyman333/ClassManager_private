@@ -17,16 +17,18 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse" style="margin-bottom:0px;border-bottom: 2px solid;" id="header">
-		<div class="container-fluid" style="height:90px;"> 
-			<div class="navbar-header" style="padding-top: 10px">
+	<nav class="navbar navbar-inverse" style="margin-bottom:0px;" id="header">
+		<div class="container-fluid"> 
+			<div class="navbar-header" style="padding-top: em; ; ; margin-bottom: 30px;">
 				<button class="navbar-toggle collapsed" type="button"
 					data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 					<span class="sr-only">Toggle navigation</span> <span
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="main"> Goo&Soo&Young</a>
+				<a class="navbar-brand" href="main"><img
+							src="<%=cp%>/resources/assets/img/logo8.png"
+							style="width: 120px;"alt="company"></a>
 			</div>
 
 			<div class="collapse navbar-collapse"

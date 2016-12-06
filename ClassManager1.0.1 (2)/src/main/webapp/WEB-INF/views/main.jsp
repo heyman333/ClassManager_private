@@ -40,8 +40,8 @@
 				<div class="carousel-inner">
 					<!--슬라이드1-->
 					<div class="item active">
-						<img src="<%=cp %>/resources/assets/img/pexels-photo-203237.jpeg"
-							style="width: 100%" alt="First slide">
+						<img src="<%=cp %>/resources/assets/img/bg11.jpeg"
+							style="width: 100%; height: 600px;" alt="First slide">
 						<div class="container">
 							<div class="carousel-caption">
 								<h1>성적관리</h1>
@@ -54,7 +54,7 @@
 					<!--슬라이드2-->
 					<div class="item">
 						<img src="<%=cp %>/resources/assets/img/pexels-photo-185764.jpeg"
-							style="width: 100%" data-src="" alt="Second slide">
+							style="width: 100%; height: 600px;" data-src="" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption">
 								<h1>커뮤니티</h1>
@@ -67,7 +67,7 @@
 					<!--슬라이드3-->
 					<div class="item">
 						<img src="<%=cp %>/resources/assets/img/apple-iphone-books-desk.jpg" 
-						style="width: 100%" data-src="" alt="Second slide">
+						style="width: 100%; height: 600px;" data-src="" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption">
 								<h1>선생님을 위한 시스템</h1>

@@ -26,7 +26,7 @@ var chartData2_society = new Array();
 var chartData3_society = new Array();
 
 /*내신*/
-$.getJSON("http://localhost:8080/classmanager/list_schooltest", function(data) {
+$.getJSON("http://192.168.219.105:8080/classmanager/list_schooltest", function(data) {
 	$.each(data, function(inx, obj) {
 		chartData_schooltest.push(obj.AVG);
 	});
@@ -56,7 +56,7 @@ $.getJSON("http://localhost:8080/classmanager/list_schooltest", function(data) {
 });
 
 /* 언어 */
-$.getJSON("http://localhost:8080/classmanager/list_language", function(data) {
+$.getJSON("http://192.168.219.105:8080/classmanager/list_language", function(data) {
 	$.each(data, function(inx, obj) {
 		chartLabels_language.push(obj.grademonth);
 		chartData1_language.push(obj.standard);
@@ -139,7 +139,7 @@ $.getJSON("http://localhost:8080/classmanager/list_language", function(data) {
 
 
 /* 수리 */
-$.getJSON("http://localhost:8080/classmanager/list_math", function(data) {
+$.getJSON("http://192.168.219.105:8080/classmanager/list_math", function(data) {
 	$.each(data, function(inx, obj) {
 		chartLabels_math.push(obj.grademonth);
 		chartData1_math.push(obj.standard);
@@ -223,7 +223,7 @@ $.getJSON("http://localhost:8080/classmanager/list_math", function(data) {
 
 
 /* 외국어 */
-$.getJSON("http://localhost:8080/classmanager/list_english", function(data) {
+$.getJSON("http://192.168.219.105:8080/classmanager/list_english", function(data) {
 	$.each(data, function(inx, obj) {
 		chartLabels_english.push(obj.grademonth);
 		chartData1_english.push(obj.standard);
@@ -306,7 +306,7 @@ $.getJSON("http://localhost:8080/classmanager/list_english", function(data) {
 
 
 /* 과학탐구 */
-$.getJSON("http://localhost:8080/classmanager/list_science", function(data) {
+$.getJSON("http://192.168.219.105:8080/classmanager/list_science", function(data) {
 	$.each(data, function(inx, obj) {
 		chartLabels_science.push(obj.subject);
 		chartData1_science.push(obj.standard);
@@ -391,7 +391,7 @@ $.getJSON("http://localhost:8080/classmanager/list_science", function(data) {
 
 
 /* 사회탐구 */
-$.getJSON("http://localhost:8080/classmanager/list_society", function(data) {
+$.getJSON("http://192.168.219.105:8080/classmanager/list_society", function(data) {
 	$.each(data, function(inx, obj) {
 		chartLabels_society.push(obj.grademonthsubject);
 		chartData1_society.push(obj.standard);
