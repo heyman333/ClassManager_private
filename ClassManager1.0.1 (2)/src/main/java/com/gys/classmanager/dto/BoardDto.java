@@ -9,7 +9,7 @@ public class BoardDto {
 	private String created_at;
 	private String writer;
 	private int hit;
-	private int teachrno;
+	private int teacherno;
 	private String gradeNum;
 	private String classNum;
 	
@@ -18,7 +18,7 @@ public class BoardDto {
 	}
 	
 	public BoardDto(int idx, String category, String title, String content, String created_at, String writer, int hit,
-			int teachrno, String gradeNum, String classNum) {
+			int teacherno, String gradeNum, String classNum) {
 		super();
 		this.idx = idx;
 		this.category = category;
@@ -27,7 +27,7 @@ public class BoardDto {
 		this.created_at = created_at;
 		this.writer = writer;
 		this.hit = hit;
-		this.teachrno = teachrno;
+		this.teacherno = teacherno;
 		this.gradeNum = gradeNum;
 		this.classNum = classNum;
 	}
@@ -52,8 +52,8 @@ public class BoardDto {
 	public int getHit() {
 		return hit;
 	}
-	public int getTeachrno() {
-		return teachrno;
+	public int getteacherno() {
+		return teacherno;
 	}
 	public String getGradeNum() {
 		return gradeNum;
@@ -82,8 +82,8 @@ public class BoardDto {
 	public void setHit(int hit) {
 		this.hit = hit;
 	}
-	public void setTeachrno(int teachrno) {
-		this.teachrno = teachrno;
+	public void setteacherno(int teacherno) {
+		this.teacherno = teacherno;
 	}
 	public void setGradeNum(String gradeNum) {
 		this.gradeNum = gradeNum;

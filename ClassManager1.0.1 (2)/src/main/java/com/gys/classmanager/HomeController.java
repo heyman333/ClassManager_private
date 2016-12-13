@@ -80,7 +80,6 @@ public class HomeController {
 
 		return "grade_input";
 	}
-
 	@RequestMapping("/schooltest_input")
 	public String schooltest_input(HttpSession session, HttpServletRequest request, Model model) {
 
