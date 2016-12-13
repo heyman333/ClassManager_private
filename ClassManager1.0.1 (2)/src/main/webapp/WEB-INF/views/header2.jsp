@@ -28,8 +28,8 @@
 			</div>
 
 			<div class="collapse navbar-collapse"
-				id="bs-example-navbar-collapse-2" style="margin-top: 10px;">
-				<ul class="nav navbar-nav" style="font-size: 20px">
+				id="bs-example-navbar-collapse-2" style="margin-top:20px; margin-bottom: 15px;">
+				<ul class="nav navbar-nav" style="font-size: 23px">
 
 					<li class="dropdown"><a
 						href="view_grade?grade=${grade}&classnum=${classNum}&stdtNum=${stdtNum}">성적관리</a>
