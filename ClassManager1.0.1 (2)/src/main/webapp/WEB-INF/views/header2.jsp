@@ -13,10 +13,9 @@
 <title>header</title>
 </head>
 <body>
-	<nav class="navbar navbar-inverse"
-		style="margin-bottom: 0px; border-bottom: 2px solid;">
-		<div class="container-fluid" style="height: 90px;">
-			<div class="navbar-header" style="padding-top: 10px">
+	<nav class="navbar navbar-inverse" style="margin-bottom:0px;" id="header">
+		<div class="container-fluid"> 
+			<div class="navbar-header" style="padding-bottom: 33px;">
 				<button class="navbar-toggle collapsed" type="button"
 					data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 					<span class="sr-only">Toggle navigation</span> <span
@@ -35,6 +34,7 @@
 					<li class="dropdown"><a
 						href="view_grade?grade=${grade}&classnum=${classNum}&stdtNum=${stdtNum}">성적관리</a>
 					<li class="dropdown"><a href="board_list">게시판</a>
+					<li class="dropdown"><a href="gallery">사진첩</a>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right" style="font-size: 15px;">
