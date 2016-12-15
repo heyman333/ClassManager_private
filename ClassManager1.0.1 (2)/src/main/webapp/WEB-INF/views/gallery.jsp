@@ -73,8 +73,14 @@ img {
 		<div id="pciture" align="right" style="margin: 20px;">
 			<button type="button" class="btn btn-success" data-toggle="modal"
 				data-target="#upload">사진등록</button>
-			<button type="button" class="btn btn-success" data-toggle="modal"
-				data-target="#delete">사진삭제</button>
+			<button type="button" class="btn btn-success" onclick="galleryDel();">사진삭제</button>
+			<script type="text/javascript">
+				function galleryDel() {
+					var idx = prompt("삭제할 사진 번호를 입력하세요!");
+					console.log(idx);
+					
+				}
+			</script>
 		</div>
 		<hr style="margin: 0px; border: 1px dotted;">
 
@@ -87,11 +93,7 @@ img {
 				</c:forEach>
 			</ul>
 		</div>
-
-
-
 		<!-- 사진등록 모달 -->
-
 		<!-- line modal -->
 		<form action="galleryInput" enctype="multipart/form-data"
 			method="post">

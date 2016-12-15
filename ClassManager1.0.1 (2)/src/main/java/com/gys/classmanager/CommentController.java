@@ -19,7 +19,6 @@ public class CommentController {
 	
 	@RequestMapping("/writeComment")
 	public String write(HttpServletRequest request, Model model, HttpSession session) {
-		System.out.println("write()");
 		
 		String teachername = (String) session.getAttribute("tname");
 		String writer;
