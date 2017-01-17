@@ -1,8 +1,9 @@
-# ClassManager
-웹기반 학급관리 프로그램 (개발자 한영수)
-추가 예정 : 
+ClassManager(혼자 만든 깃허브)
 
-
-1.사진첩 
-2.실제 대학교 입학성적 데이터와 학생의 성정 입력 데이터 비교 및 분석 
-3.투표기능
+Update 
+=====
+* 투표기능 및 파일 업로드
+* 학급일정 / 학교일정 추가 
+* 실제대학 입시 성적과 개인성적 비교 및 분석 등
+* Naver D2 Fest 출전 준비  
+* https://github.com/MinGu-Kim/ClassManager 에서 작업
