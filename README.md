@@ -1,5 +1,3 @@
-ClassManager(혼자 만든 깃허브)
-
 Update 
 =====
 * 투표기능 및 파일 업로드
