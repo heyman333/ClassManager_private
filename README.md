@@ -1,6 +1,7 @@
 사용기술 / 나의 역할 / 느낀점 .pdf
 ====
-https://github.com/heyman333/ClassManager_private/blob/master/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4(pdf%20file).pdf
+https://github.com/heyman333/ClassManager_private/blob/master/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4(pdf%20file).pdf  
+
 YouTube
 ====
 https://youtu.be/nTw_VAWpRBo
